@@ -4,10 +4,10 @@ import java.util.concurrent.RecursiveTask;
 
 public class FactorialTask extends RecursiveTask<Integer> {
 
-    int n;
-    int start;
-    int end;
-    final Integer THRESHOLD = 5;
+    private int n;
+    private int start;
+    private int end;
+    private final Integer THRESHOLD = 5;
 
     public FactorialTask(Integer n) {
         this.n = n;
